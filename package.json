@@ -11,5 +11,8 @@
   "license": "ISC",
   "bin": {
     "code": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "simple-git-hooks": "^2.8.1"
   }
 }
