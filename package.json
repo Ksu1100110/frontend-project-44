@@ -1,20 +1,37 @@
 {
   "name": "@hexlet/code",
-  "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Ksu1100110/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Ksu1100110/frontend-project-44/actions)",
+  "type": "module",
+  "description": "brain games project: consists of 5 games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OBJS/frontend-project-44.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OBJS/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/OBJS/frontend-project-44#readme",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "readline-sync": "^1.4.10",
-    "simple-git-hooks": "^2.8.1"
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
   }
 }
